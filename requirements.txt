@@ -1,7 +1,7 @@
 # for generate (gradio server) and finetune
 datasets==2.13.0
 sentencepiece==0.1.99
-gradio==3.50.2
+gradio==4.19.2
 sse_starlette==1.8.2
 huggingface_hub==0.19.4
 appdirs==1.4.4
@@ -23,7 +23,7 @@ loralib==0.1.1
 bitsandbytes==0.41.3
 accelerate==0.25.0
 peft==0.7.1
-transformers==4.36.2
+transformers==4.38.0
 tokenizers==0.15.0
 APScheduler==3.10.1
 
@@ -63,7 +63,7 @@ instructorembedding==1.0.1
 # for gpt4all .env file, but avoid worrying about imports
 python-dotenv==1.0.0
 
-text-generation==0.6.1
+text-generation==0.7.0
 # for tokenization when don't have HF tokenizer
 tiktoken==0.5.2
 
